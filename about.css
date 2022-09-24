@@ -5,6 +5,9 @@
 body{
     background: #1ed695;
 }
+.main{
+    padding-top: 50px;
+}
 .logo{
     color: white;
     font-size: 35px;

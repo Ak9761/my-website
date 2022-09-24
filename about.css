@@ -5,12 +5,23 @@
 body{
     background: #1ed695;
 }
-.main{
-    padding-top: 50px;
-}
 .logo{
     color: white;
     font-size: 35px;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    padding-top: 25px;
+    /* padding-left: 20px; */
+    font-size: 25px;
+}
+.content{
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: larger;
+    width: 90vw;
 }
 .logo a{
     text-decoration: none;
@@ -72,5 +83,12 @@ ul li a:hover{
     }
     #click{
         display: none;
+    }
+    .content h1{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .content p{
+        font-size: 20px;
     }
 }

@@ -22,22 +22,6 @@ body{
     padding-left: 50px;
     font-size: 30px;
 }
-.mybtn{
-    width: 100px;
-    height: 35px;
-    font-size: 24px;
-    color: #1ed695;
-    background-color: white;
-    font-weight: bolder;
-    font-family:'Times New Roman', Times, serif;
-    border-radius: 8px;
-    border: none;
-    /* padding-left: 50px; */
-}
-.buton{
-    padding-top: 15px;
-    padding-left: 50px;
-}
 nav{
     display: flex;
     height: 36px;

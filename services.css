@@ -42,6 +42,27 @@ ul li a:hover{
 #click{
     display: none;
 }
+.container{
+    padding-top: 40px;
+}
+.container h1{
+    padding-top: 20px;
+    font-size: 40px;
+}
+.container p{
+    padding-top: 60px;
+    font-size: 25px;
+}
+.container li{
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.li{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+}
 @media (max-width:700px) {
     nav ul{
         position: fixed;
@@ -83,11 +104,12 @@ ul li a:hover{
         font-size: 25px;
     }
     .container li{
-        padding-left: 30px;
+        padding-left: 20px;
         font-size: 25px;
         font-weight: bolder;
     }
     .li{
+        display: block;
         padding-left: 20px;
     }
 }

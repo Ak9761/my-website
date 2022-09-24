@@ -17,6 +17,14 @@ nav{
     display: flex;
     height: 36px;
 }
+h1{
+    padding-top: 50px;
+    /* display: flex; */
+    font-size: 50px;
+}
+.shift{
+    padding-left: 20px;
+}
 ul{
     display: flex;
     list-style: none;
@@ -27,9 +35,8 @@ ul{
     display: none;
 }
 ul li a{
-    /* position: fixed; */
     text-decoration: none;
-    margin: 123px;
+    margin:123px;
     font-size: 25px;
     color: white;
 }
@@ -39,8 +46,33 @@ ul li a:hover{
     color: black;
     border-radius: 4px;
 }
+.content{
+    padding-top: 50px;
+    display: flex;
+}
 #click{
     display: none;
+}
+#images{
+    width: 80px;
+    height: auto;
+    display: block;
+}
+#images1{
+    padding-left: 10px;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#images2{
+    padding-left: 10px;
+    width: 80px;
+    height: 80px;
+    /* display: block; */
+}
+#profile{
+    width: 300px;
+    height: auto;
 }
 @media (max-width:700px) {
     nav ul{
@@ -69,5 +101,17 @@ ul li a:hover{
     }
     #click{
         display: none;
+    }
+    .content{
+        display: block;
+    }
+    #images{
+        padding-left: 100px;
+    }
+    #images1{
+        padding-left: 90px;
+    }
+    #images2{
+        padding-left: 100px;
     }
 }

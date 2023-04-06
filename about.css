@@ -3,7 +3,28 @@
     padding: 0;
 }
 body{
-    background: #1ed695;
+	background: #E55D87;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(-45deg, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(-45deg, #5FC3E4, #3ca55c
+	, #E55D87, #e5e5be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-size: 400% 400%;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+	animation: gradient 10s linear infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .logo{
     color: white;
